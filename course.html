@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="https://kit.fontawesome.com/0308e04451.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+            rel="stylesheet">
+        <title>Walchand College of Engineering, Sangli</title>
+    </head>
+
+    <body>
+
+        <!----Header---->
+        <section class="course-header">
+            <nav>
+                <a href="#"><img src="images/logo.png" alt="Logo"></a>
+
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+
+            </nav>
+
+            <div class="course-text-box">
+                <h1>Our Courses</h1>
+            </div>
+        </section>
+
+        <!----Course---->
+        <section class="course">
+            <h1>Courses We Offer</h1>
+            <p>Explore a diverse range of cutting-edge courses designed to empower and inspire, tailored to meet the
+                demands of today's dynamic world.</p>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Diploma</h3>
+                    <p>Embark on a journey of specialized knowledge with our comprehensive Diploma courses. Designed for
+                        quick entry into specific industries, these programs offer a focused curriculum, hands-on
+                        experience, and practical skills to kickstart your career</p>
+                </div>
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>Shape your future with our rigorous and enriching Undergraduate programs. From foundational
+                        courses to advanced studies, our curriculum is crafted to foster critical thinking, creativity,
+                        and a deep understanding of your chosen field, preparing you for success in a rapidly evolving
+                        global landscape.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Post Graduate</h3>
+                    <p>Elevate your expertise with our advanced Postgraduate programs. Tailored for professionals and
+                        recent graduates seeking specialized knowledge, our PG courses provide in-depth exploration,
+                        research opportunities, and a pathway to leadership roles in your chosen field.</p>
+                </div>
+            </div>
+        </section>
+
+        <!----Facilities---->
+        <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>Empower your journey with top-notch facilities—modern labs, inspiring classrooms, and vibrant
+                recreational spaces—crafted for optimal learning and growth.</p>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="https://images.shiksha.com/mediadata/images/1544423696phpuofRbi.png" alt="Library">
+                    <h3>World Class Library</h3>
+                    <p>Immerse yourself in a world of knowledge at our state-of-the-art library facility. Curated
+                        collections, digital resources, and a tranquil study environment await, empowering your academic
+                        journey with access to a diverse range of literature and research materials.
+                    </p>
+                </div>
+
+                <div class="facilities-col">
+                    <img src="https://www.joonsquare.com/usermanage/image/business/walchand-college-of-engineering-sangli-13934/walchand-college-of-engineering-sangli-walchand-college-004.jpg"
+                        alt="Play Ground">
+                    <h3>Largest Play Ground</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem labore doloribus cupiditate vero
+                        fugit.
+                    </p>
+                </div>
+
+                <div class="facilities-col">
+                    <img src="https://static.toiimg.com/photo/msid-93045055/93045055.jpg">
+                    <h3>Academic Excellence</h3>
+                    <p>Elevate your learning experience in our Academic Excellence Hubs, where state-of-the-art
+                        classrooms meet cutting-edge academics, fostering an environment of innovation, collaboration,
+                        and success
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!----Footer---->
+        <section class="footer">
+
+            <div class="icons">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-twitch" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </div>
+        </section>
+
+
+        <!---Javascript for toggole menu--->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+
+    </body>
+
+</html>
