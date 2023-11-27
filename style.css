@@ -8,7 +8,7 @@
   min-height: 100vh;
   width: 100;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
-    url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/WCE_Sangli.jpg/1200px-WCE_Sangli.jpg");
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6DmoE8uT63F40ooyRKAoKQY2OQPerhx_3St2qU640&s");
   background-position: center;
   background-size: cover;
   position: relative;
@@ -697,3 +697,36 @@ nav .fa {
   text-decoration: none;
   padding: 8px 0;
 }
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 1%, rgba(255, 255, 255, 0) 70%);
+  background-size: 5px 5px; /* Adjust the size of the stars */
+  animation: glowing 5s linear infinite;
+}
+
+@keyframes glowing {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
