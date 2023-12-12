@@ -711,8 +711,7 @@ body::before {
   height: 100%;
   pointer-events: none;
   background: radial-gradient(circle, rgba(255, 255, 255, 0.8) 1%, rgba(255, 255, 255, 0) 70%);
-  background-size: 5px 5px; /* Adjust the size of the stars */
-  animation: glowing 5s linear infinite;
+
 }
 
 
